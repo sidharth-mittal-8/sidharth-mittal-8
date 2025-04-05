@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/htop")
 def htop():
-    name = "sample_name"  # Replace this with your actual full name
+    name = "sample_name"  
     username = os.getenv("USER") or os.getenv("USERNAME") or "unknown"
 
     # Server time in IST
