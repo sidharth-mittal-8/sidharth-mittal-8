@@ -1,25 +1,40 @@
-### Hi there 👋
+# Django/Flask Codespace Project - /htop Endpoint
 
-<!--
-**sidharth-mittal-8/sidharth-mittal-8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This project is built on GitHub Codespaces using either Django or Flask. It provides a `/htop` endpoint that returns system information including:
 
-Here are some ideas to get you started:
+- Full Name
+- System Username
+- Server Time in IST
+- Output from the `top` command (first 10–20 lines)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+The endpoint is meant to stay live without shutting down the Codespace.
 
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
-<div id="badges">
-  <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
-  <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-</div>
+---
+
+## Task Instructions
+
+1. Create an account on https://github.com  
+2. Create a codespace using https://github.com/codespaces  
+3. Set Codespace timeout to **240 minutes** (maximum)  
+4. Start a new Codespace  
+5. Create a Django or Flask application  
+6. Implement an endpoint `/htop`  
+7. Make sure the app is served on a public port  
+8. DO NOT stop the Codespace — it must remain active so the endpoint keeps running  
+9. Test the `/htop` endpoint in an incognito browser tab before submission  
+
+---
+
+## Endpoint Output
+
+The `/htop` page should show the following:
+
+- **Name** – your full name  
+- **Username** – system username from the server  
+- **Server Time in IST** – Indian Standard Time  
+- **Top Output** – output of the `top` command (formatted as HTML)  
+
+---
+
+## Example Output
+
